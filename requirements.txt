@@ -1,0 +1,16 @@
+# FinSignal v0.1 — Python dependencies
+# Install with: pip install -r requirements.txt
+# Requires Python 3.10+
+
+# Strands Agents SDK (core agent orchestration)
+strands-agents==0.1.9
+
+# Data validation
+pydantic==2.11.7
+
+# Streamlit UI
+streamlit==1.46.1
+
+# Testing
+pytest==8.4.1
+pytest-cov==6.2.1

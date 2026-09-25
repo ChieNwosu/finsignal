@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "US Equity": 0.60,
+    "International Equity": 0.20,
+    "Bonds": 0.20
+  },
+  "concentration_limit": 0.25,
+  "drift_threshold": 0.05,
+  "notes": {
+    "concentration_limit": "No single holding may exceed 25% of total portfolio value.",
+    "drift_threshold": "Rebalance is triggered when any asset class deviates more than 5 percentage points from its target.",
+    "targets": "60% US Equity / 20% International Equity / 20% Bonds — moderate-growth allocation for a 20-year horizon."
+  }
+}

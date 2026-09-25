@@ -1,0 +1,38 @@
+{
+  "scenarios": {
+    "baseline": {
+      "description": "Current portfolio at market prices. No pending contributions. Expect no action required.",
+      "price_overrides": {},
+      "pending_contribution": null
+    },
+    "tech_rally": {
+      "description": "AAPL and MSFT surge 20%. US Equity allocation breaches the concentration limit and drifts well above target. Expect a rebalance decision brief.",
+      "price_overrides": {
+        "AAPL": 227.40,
+        "MSFT": 454.62
+      },
+      "pending_contribution": null
+    },
+    "bond_selloff": {
+      "description": "BND and VCIT drop 15%. Bonds allocation falls well below target threshold. Expect a drift-triggered decision brief.",
+      "price_overrides": {
+        "BND": 61.88,
+        "VCIT": 67.28
+      },
+      "pending_contribution": null
+    },
+    "contribution_due": {
+      "description": "Alex has $5,000 available to invest. Baseline prices. Expect a contribution allocation decision brief.",
+      "price_overrides": {},
+      "pending_contribution": 5000.00
+    },
+    "contribution_with_drift": {
+      "description": "Tech rally AND a $5,000 contribution pending. Tests combined rebalance + contribution allocation brief.",
+      "price_overrides": {
+        "AAPL": 227.40,
+        "MSFT": 454.62
+      },
+      "pending_contribution": 5000.00
+    }
+  }
+}

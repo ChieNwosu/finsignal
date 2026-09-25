@@ -1,0 +1,53 @@
+{
+  "holdings": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "asset_class": "US Equity",
+      "quantity": 50,
+      "price": 189.50
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corp.",
+      "asset_class": "US Equity",
+      "quantity": 30,
+      "price": 378.85
+    },
+    {
+      "ticker": "VTI",
+      "name": "Vanguard Total Stock Market ETF",
+      "asset_class": "US Equity",
+      "quantity": 40,
+      "price": 224.60
+    },
+    {
+      "ticker": "VXUS",
+      "name": "Vanguard Total International Stock ETF",
+      "asset_class": "International Equity",
+      "quantity": 120,
+      "price": 58.30
+    },
+    {
+      "ticker": "EFA",
+      "name": "iShares MSCI EAFE ETF",
+      "asset_class": "International Equity",
+      "quantity": 80,
+      "price": 77.45
+    },
+    {
+      "ticker": "BND",
+      "name": "Vanguard Total Bond Market ETF",
+      "asset_class": "Bonds",
+      "quantity": 150,
+      "price": 72.80
+    },
+    {
+      "ticker": "VCIT",
+      "name": "Vanguard Intermediate-Term Corporate Bond ETF",
+      "asset_class": "Bonds",
+      "quantity": 90,
+      "price": 79.15
+    }
+  ]
+}
